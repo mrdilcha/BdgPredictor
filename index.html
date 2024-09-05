@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDG-3 Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkoLofuh2Ynl_Kd9hvW3z0_nQkZmrtw84mszmvsv9CriuFekhu1P3peFE&s=10" alt="BDG-3 Logo">
+        </div>
+        <div class="input-container">
+            <input type="text" id="periodInput" maxlength="14" placeholder="Enter 14-digit Period Number">
+            <button id="checkButton">Check Now</button>
+        </div>
+        <div id="connecting" class="hidden">Connecting Server...</div>
+        <div id="result" class="hidden">
+            <h2>Result</h2>
+            <div id="prediction" class="prediction"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
